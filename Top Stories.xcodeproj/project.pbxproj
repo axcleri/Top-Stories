@@ -12,6 +12,7 @@
 		51DA323D21A9E2F9000FC133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DA323B21A9E2F9000FC133 /* Main.storyboard */; };
 		51DA323F21A9E302000FC133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DA323E21A9E302000FC133 /* Assets.xcassets */; };
 		51DA324221A9E302000FC133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DA324021A9E302000FC133 /* LaunchScreen.storyboard */; };
+		51EE6B2B21A9EE46002EE263 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE6B2A21A9EE46002EE263 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		51DA323E21A9E302000FC133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51DA324121A9E302000FC133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51DA324321A9E302000FC133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EE6B2A21A9EE46002EE263 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				51DA323E21A9E302000FC133 /* Assets.xcassets */,
 				51DA324021A9E302000FC133 /* LaunchScreen.storyboard */,
 				51DA324321A9E302000FC133 /* Info.plist */,
+				51EE6B2A21A9EE46002EE263 /* SwiftyJSON.swift */,
 			);
 			path = "Top Stories";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51EE6B2B21A9EE46002EE263 /* SwiftyJSON.swift in Sources */,
 				51DA323A21A9E2F9000FC133 /* SourcesViewController.swift in Sources */,
 				51DA323821A9E2F9000FC133 /* AppDelegate.swift in Sources */,
 			);
