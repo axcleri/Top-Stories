@@ -48,6 +48,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="AuD-oR-GRD"/>
+                    <connections>
+                        <outlet property="tableView" destination="mcX-YM-nGb" id="rAa-NI-roO"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3B-KV-4bE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
